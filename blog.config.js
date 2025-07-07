@@ -62,7 +62,7 @@ const BLOG = {
   // 欢迎语打字效果,Hexo,Matery主题支持, 英文逗号隔开多个欢迎语。
   GREETING_WORDS:
     process.env.NEXT_PUBLIC_GREETING_WORDS ||
-    '小青蛙爱写代码 也爱听音乐,前端是主业 分享是日常,这里是它跳进网络世界的小池塘,欢迎你来坐坐。🎉',
+    '',
 
   // uuid重定向至 slug
   UUID_REDIRECT: process.env.UUID_REDIRECT || false
